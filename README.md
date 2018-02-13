@@ -8,3 +8,6 @@ WARNING! Neovim depends on libc6 >= 2.7 but Maemo5 has only 2.5.1. So I built 2.
 I installed only libc6_2.10 and locales_2.10.
 
 XSEL is needed to be able to use clipboard in neovim. This version is from here: https://talk.maemo.org/showpost.php?p=1234420&postcount=6
+
+
+After installing the debs you need to create ~/.config/nvim folder and init.vim file in this folder - i.e. init.vim is like vimrc and the content can be the same. Some of the plugins (for example csv.vim, vim-airline) should go in ~/.config/nvim/plugged folder.
