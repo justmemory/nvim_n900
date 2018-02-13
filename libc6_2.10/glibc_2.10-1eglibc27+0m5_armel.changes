@@ -1,0 +1,82 @@
+Format: 1.8
+Date: Thu, 01 Feb 2018 12:09:10 +0100
+Source: glibc
+Binary: glibc-doc locales nscd libc6 libc6-dev libc6-dbg libc6-prof libc6-pic libc6.1 libc6.1-dev libc6.1-dbg libc6.1-prof libc6.1-pic libc0.3 libc0.3-dev libc0.3-dbg libc0.3-prof libc0.3-pic libc1 libc1-dev libc1-dbg libc1-prof libc1-pic libc6-sparc64 libc6-dev-sparc64 libc6-s390x libc6-dev-s390x libc6-amd64 libc6-dev-amd64 libc6-ppc64 libc6-dev-ppc64 libc6-sparcv9 libc6-sparcv9b libc6-i686
+Architecture: source all armel
+Version: 2.10-1eglibc27+0m5
+Distribution: unstable
+Urgency: low
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Changed-By: Balázs Kaholek <kaholek.balazs@gmail.com>
+Description: 
+ glibc-doc  - GNU C Library: Documentation
+ libc0.3    - GNU C Library: Shared libraries and Timezone data
+ libc0.3-dbg - GNU C Library: Libraries with debugging symbols
+ libc0.3-dev - GNU C Library: Development Libraries and Header Files
+ libc0.3-pic - GNU C Library: PIC archive library
+ libc0.3-prof - GNU C Library: Profiling Libraries
+ libc1      - GNU C Library: Shared libraries and Timezone data
+ libc1-dbg  - GNU C Library: Libraries with debugging symbols
+ libc1-dev  - GNU C Library: Development Libraries and Header Files
+ libc1-pic  - GNU C Library: PIC archive library
+ libc1-prof - GNU C Library: Profiling Libraries
+ libc6      - GNU C Library: Shared libraries and Timezone data
+ libc6-amd64 - GNU C Library: 64bit Shared libraries for AMD64
+ libc6-dbg  - GNU C Library: Libraries with debugging symbols
+ libc6-dev  - GNU C Library: Development Libraries and Header Files
+ libc6-dev-amd64 - GNU C Library: 64bit Development Libraries for AMD64
+ libc6-dev-ppc64 - GNU C Library: 64bit Development Libraries for PowerPC64
+ libc6-dev-s390x - GNU C Library: 64bit Development Libraries for IBM zSeries
+ libc6-dev-sparc64 - GNU C Library: 64bit Development Libraries for UltraSPARC
+ libc6-i686 - GNU C Library: Shared libraries [i686 optimized]
+ libc6-pic  - GNU C Library: PIC archive library
+ libc6-ppc64 - GNU C Library: 64bit Shared libraries for PowerPC64
+ libc6-prof - GNU C Library: Profiling Libraries
+ libc6-s390x - GNU C Library: 64bit Shared libraries for IBM zSeries
+ libc6-sparc64 - GNU C Library: 64bit Shared libraries for UltraSPARC
+ libc6-sparcv9 - GNU C Library: Shared libraries [v9 optimized]
+ libc6-sparcv9b - GNU C Library: Shared libraries [v9b optimized]
+ libc6.1    - GNU C Library: Shared libraries and Timezone data
+ libc6.1-dbg - GNU C Library: Libraries with debugging symbols
+ libc6.1-dev - GNU C Library: Development Libraries and Header Files
+ libc6.1-pic - GNU C Library: PIC archive library
+ libc6.1-prof - GNU C Library: Profiling Libraries
+ locales    - GNU C Library: National Language (locale) data [support]
+ nscd       - GNU C Library: Name Service Cache Daemon
+Changes: 
+ glibc (2.10-1eglibc27+0m5) unstable; urgency=low
+ .
+   * Build version 2.10
+Checksums-Sha1: 
+ f3ccf146785c5fffba0aaaab44e8b825034845d5 1634 glibc_2.10-1eglibc27+0m5.dsc
+ 565763cedacf19f3d445b5df28ab794cbacee866 40110180 glibc_2.10-1eglibc27+0m5.tar.gz
+ 0cf590248e850cf9937c2895ecc50aa25646fe2f 2683766 glibc-doc_2.10-1eglibc27+0m5_all.deb
+ 115e5dc18b52ed4c2c23dbff51822777d1dcd5ae 4860412 locales_2.10-1eglibc27+0m5_armel.deb
+ 20069877b547a6ee9862beb130691fe9bd405658 3845884 libc6_2.10-1eglibc27+0m5_armel.deb
+ 8503bfbd2d737ba0c9aa267e718d465dd44d49d8 1915088 libc6-dev_2.10-1eglibc27+0m5_armel.deb
+ a5d03d3f880ff6bc6ea5f66817cdb94e99b705ee 4198 libc6-prof_2.10-1eglibc27+0m5_armel.deb
+ c2c4c9e037622535df2d0ca4a8613d7645929b99 1239764 libc6-pic_2.10-1eglibc27+0m5_armel.deb
+ 3501e9c16fa7a9efbf89c35334120be14085f7aa 62258 nscd_2.10-1eglibc27+0m5_armel.deb
+ 7187437602f74e447eb5945c9434802c6e7d7924 907038 libc6-dbg_2.10-1eglibc27+0m5_armel.deb
+Checksums-Sha256: 
+ d98cf775cee2cb000841a1928510532c20e94a1c472ff7aa2948344cdc1eaf33 1634 glibc_2.10-1eglibc27+0m5.dsc
+ f35f1483fcf8bd417a3ef92c6fc128fa1d72e1cbe80147121d5a57ec0a6fc169 40110180 glibc_2.10-1eglibc27+0m5.tar.gz
+ 20a1bb65eb30674f2da1284bc59f136f92a744121cd12f423b32b8c4bb8b0e00 2683766 glibc-doc_2.10-1eglibc27+0m5_all.deb
+ 22fcc62a99a865f485d08e109700b7836f3931aad5c0131cfaf306a65254b659 4860412 locales_2.10-1eglibc27+0m5_armel.deb
+ 8d00960f17a42a16c3ef6db715ebc70cc4022aab5148aa98b289abf9586282b2 3845884 libc6_2.10-1eglibc27+0m5_armel.deb
+ bf04c3aa32438ae83f260d741eccd74d674e0a218a68b5cb4f53b63933e42bd8 1915088 libc6-dev_2.10-1eglibc27+0m5_armel.deb
+ aad1bfd8c15a673fb76452a28b23dea5b505dfaad17212914bc434f1e00769b2 4198 libc6-prof_2.10-1eglibc27+0m5_armel.deb
+ 91a4256213269c1574f35b910ac9278af5ae58f17ef762fa1faa768eb35af29d 1239764 libc6-pic_2.10-1eglibc27+0m5_armel.deb
+ 063324ff4cc287ded1e3269e255107b4332109653c6a4c3800ae3422213bff00 62258 nscd_2.10-1eglibc27+0m5_armel.deb
+ 04386650b96f1a85922460c40f0fdbd588dbad2e01aaa978cd46aa9b517221cd 907038 libc6-dbg_2.10-1eglibc27+0m5_armel.deb
+Files: 
+ fbb002e503d777e4309a6a1fdffce9e0 1634 libs required glibc_2.10-1eglibc27+0m5.dsc
+ ed6867c3f3fcce20796d7b50a263d197 40110180 libs required glibc_2.10-1eglibc27+0m5.tar.gz
+ 750732a10d40e5a88f631b8451de6135 2683766 doc optional glibc-doc_2.10-1eglibc27+0m5_all.deb
+ 5fecd6801287dd6f89adb394dad22465 4860412 libs standard locales_2.10-1eglibc27+0m5_armel.deb
+ 6a807801c77cc5298dc4e9a91d8fc02a 3845884 libs required libc6_2.10-1eglibc27+0m5_armel.deb
+ e682d2c6085e652ed57f5930bd832f8a 1915088 libdevel standard libc6-dev_2.10-1eglibc27+0m5_armel.deb
+ ca9cb87c74189c1caa01a6f622f63974 4198 libdevel extra libc6-prof_2.10-1eglibc27+0m5_armel.deb
+ b44b7fa66247bdfb66f4c6ddb8b71e19 1239764 libdevel optional libc6-pic_2.10-1eglibc27+0m5_armel.deb
+ d90dcd4a62a457f02206b61f5b144315 62258 admin optional nscd_2.10-1eglibc27+0m5_armel.deb
+ 44627e43b8fb1db6ca38938342d8338a 907038 libdevel extra libc6-dbg_2.10-1eglibc27+0m5_armel.deb
